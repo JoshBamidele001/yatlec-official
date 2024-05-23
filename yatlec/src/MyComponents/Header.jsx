@@ -34,7 +34,7 @@ export default function Header() {
 
       className="relative z-1 text-center p-4 lg:mt-10">
         <h1 className="text-2xl font-semibold text-white">Welcome to the official website of</h1>
-        <p className="text-4xl text-white mt-2  font-bold">YE ARE THE LIGHT EVANGELICAL CHURCH</p>
+        <p className="text-6xl text-white mt-2  font-bold">YE ARE THE LIGHT EVANGELICAL CHURCH</p>
       </motion.div>
 
       <motion.div
@@ -43,7 +43,7 @@ export default function Header() {
       whileInView={"show"}
       viewport={{once:false, amount: 0.9}}
       className="relative z-1 text-center p-4" >
-        <p className='text-wrap text-justify w-3/5 mx-auto text-white'>Welcome to Ye Are the Light Evangelical Church! We are a vibrant community grounded in the Word of God, fervent in prayer, and passionate about evangelism. Our mission is to shine the light of Christ in our lives and the world around us. Join us as we grow in faith, support one another, and spread the good news of Jesus Christ. Together, we can make a difference through the power of God's love and grace. Join us for dynamic worship services, enriching Bible studies, and meaningful fellowship. At Ye Are the Light Evangelical Church, you'll find a supportive family ready to grow in faith together and make a transformative impact. Come and be a part of our mission to illuminate the world with God's love and grace.</p>
+        <p className='text-wrap text-justify w-3/5 mx-auto text-white font-semibold'>Welcome to Ye Are the Light Evangelical Church! We are a vibrant community grounded in the Word of God, fervent in prayer, and passionate about evangelism. Our mission is to shine the light of Christ in our lives and the world around us. Join us as we grow in faith, support one another, and spread the good news of Jesus Christ. Together, we can make a difference through the power of God's love and grace. Join us for dynamic worship services, enriching Bible studies, and meaningful fellowship. At Ye Are the Light Evangelical Church, you'll find a supportive family ready to grow in faith together and make a transformative impact. Come and be a part of our mission to illuminate the world with God's love and grace.</p>
       </motion.div>
 
       <motion.div
