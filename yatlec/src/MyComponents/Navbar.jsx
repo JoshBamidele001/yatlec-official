@@ -5,12 +5,12 @@ import yatleclogo from '../resources/yatlec.jpeg'
 export default function Navbar() {
   return (
     <>
-        <div className='flex items-center justify-around py-3 h-24 bg-white sticky top-0 z-10  w-full'>
+        <div className='flex items-center justify-around py-3 h-24 bg-white sticky top-0 z-20  w-full'>
             <section className='flex items-center gap-2'>
                     <img src={yatleclogo} alt="" className='w-10' />
                     <span className='font-semibold text-2xl text-orange-700'>Yatlec</span>
             </section>
-            <ul className='flex gap-10 font-semibold text-orange-800'>
+            <ul className='lg:flex lg:flex-row gap-10 font-semibold text-orange-800 hidden '>
                 <Link to='/'>
                 <li className='hover:text-orange-700 hover:border-b-2'>Home</li>
                 </Link>

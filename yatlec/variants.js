@@ -11,7 +11,7 @@ export const fadeIn = (direction, deLay) => {
             opacity: 1,
             transition: {
                 type: 'tween',
-                duration: 1.2,
+                duration: 0.8,
                 delay: deLay,
                 ease: [0.25, 0.25, 0.25, 0.75],
             }
