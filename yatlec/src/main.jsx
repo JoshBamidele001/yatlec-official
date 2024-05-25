@@ -8,10 +8,11 @@ import '@fontsource-variable/montserrat';
 
 import About from './Pages/About.jsx'
 import Navbar from './MyComponents/Navbar.jsx';
-import OurAssemblies from './Pages/OurAssemblies.jsx';
+import OurPastors from './Pages/OurPastors.jsx';
 import OurServices from './Pages/OurServices.jsx';
 import TheYouthChurch from './Pages/TheYouthChurch.jsx';
 import Give from './Pages/Give.jsx';
+
 
 
 
@@ -23,8 +24,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
         <Route path='/' element={<App/>}/>
         <Route path='/about' element={<About/>}/>
-        <Route path='/our-assemblies' element={<OurAssemblies/>} />
-        <Route path='/our-services' element={<OurServices/>} />
+        <Route path='/our-pastors' element={<OurPastors/>} />
+        <Route path='/gallery' element={<OurServices/>} />
         <Route path='/the-youths' element={<TheYouthChurch/>} />
         <Route path='/give' element={<Give/>} />
 
