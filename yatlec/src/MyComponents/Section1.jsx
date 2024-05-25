@@ -12,23 +12,23 @@ export default function Section1() {
         <div className="flex items-center justify-between md:mt-5 h-full bg-black bg-opacity-50">
           {/* <h1 className="text-white text-4xl font-bold">Welcome to My Website</h1> */}
           
-      <div className='md:grid md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto gap-10 p-4 hidden  '>
+      <div className='md:grid md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto gap-10 p-4 hidden'>
           
-          <div className='border-4 p-3  md:h-[450px] lg:h-[620px] text-center bg-gray-300 bg-opacity-75 text-black px-4 hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
+          <div className='border-4 p-3 rounded-2xl  md:h-[450px] lg:h-[620px] text-center bg-gray-300 bg-opacity-75 text-black px-4 hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
            <h2 className=' md:text-3xl lg:text-5xl font-bold m-2 '>THE WORD</h2>
             <p className='md:my-5 lg:my-10 md:text-lg font-semibold'>We preach the word; we teach the word, we live the word</p>
             <p className='text-sm lg:text-lg  text-wrap md:my-5 lg:my-10 text-justify text-orange-800 font-semibold mx-3'>At Ye Are the Light Evangelical Church, we are committed to the Word of God in every aspect of our lives. We preach the Bible with passion, teach its truths with clarity, and live out its principles daily. Join us as we grow in faith and share God's love, making His Word the foundation of everything we do.</p>
             <p className='btn bg-orange-600 text-white p-4 rounded-lg my-4'>Contact Us</p>
           </div>
 
-          <div className='border-4 p-3 md:h-[450px] lg:h-[620px] text-center bg-gray-300 bg-opacity-75 text-black px-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
+          <div className='border-4 p-3 rounded-2xl md:h-[450px] lg:h-[620px] text-center bg-gray-300 bg-opacity-75 text-black px-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
            <h2 className=' md:text-3xl lg:text-5xl font-bold m-2 '>PRAYERS</h2>
             <p className=' md:my-5 lg:my-10  font-semibold'>We preach the word; we teach the word, we live the word</p>
             <p className='text-sm lg:text-lg text-wrap md:my-5 lg:my-10 text-justify text-orange-800 font-semibold mx-3'>At Ye Are the Light Evangelical Church, prayer is powerful and transformative. We pray to God with faith, and we witness instant answers, miracles, and deliverances. Join us in prayer and experience the incredible impact of God's presence and power in your life, bringing healing, hope, and breakthrough in every situation.</p>
             <p className='btn bg-orange-600 text-white p-4 rounded-lg my-4'>Contact Us</p>
           </div>
 
-          <div className='border-4 p-3 md:h-[450px] lg:h-[620px] text-center bg-gray-300 bg-opacity-75 text-black px-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
+          <div className='border-4 p-3 rounded-2xl md:h-[450px] lg:h-[620px] text-center bg-gray-300 bg-opacity-75 text-black px-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
            <h2 className='md:text-3xl lg:text-5xl font-bold m-2 '>EVANGELISM</h2>
             <p className='md:my-5 lg:my-10 text-lg font-semibold'>We are passionate about Soul Winning</p>
             <p className='text-sm lg:text-lg text-wrap md:my-5 lg:my-10 text-justify text-orange-800 font-semibold mx-3'>At Ye Are the Light Evangelical Church, evangelism is at the heart of our mission. We are passionate about winning souls for Christ, sharing the good news with love and urgency. Join us as we reach out to our community and beyond, bringing hope, salvation, and the light of Jesus to those in need. Together, we can transform lives.</p>
