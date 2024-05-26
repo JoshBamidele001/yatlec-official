@@ -186,6 +186,13 @@ export default function OurAssemblies() {
                 </div>
           </div>
 
+          <div className='w-64 h-64 bg-transparent border-2 rounded-2xl my-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90'>
+                <div className='w-full h-24 bg-orange-600 flex justify-center items-center font-semibold text-white'>YATLEC OYO TOWN</div>
+                <div>
+                  <p className='font-semibold lg:mx-2 mt-3'>Beside Praise House, Oke Abobo Assembly, Kuola, Apata , Ibadan</p>
+                  <p className='font-semibold lg:mx-3 mt-3'>TEL: 08038096564</p>
+                </div>
+          </div>
          
      </div>
 
@@ -236,6 +243,54 @@ export default function OurAssemblies() {
 
           <div className='w-64 h-64 bg-transparent border-2 rounded-2xl my-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90'>
                 <div className='w-full h-24 bg-orange-600 flex justify-center items-center font-semibold text-white'>YATLEC AKURE 5</div>
+                <div>
+                  <p className='font-semibold lg:mx-2 mt-3'>Beside Praise House, Oke Abobo Assembly, Kuola, Apata , Ibadan</p>
+                  <p className='font-semibold lg:mx-3 mt-3'>TEL: 08038096564</p>
+                </div>
+          </div>
+
+         </div>
+
+         <p className='font-semibold lg:text-3xl text-center text-orange-700'>LAGOS STATE ASSEMBLIES</p>
+            
+            <hr />
+
+         <div className='grid lg:grid-cols-5'>
+         <div className='w-64 h-64 bg-transparent border-2 rounded-2xl my-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90'>
+                <div className='w-full h-24 bg-orange-600 flex justify-center items-center font-semibold text-white'>YATLEC IKORODU </div>
+                <div>
+                  <p className='font-semibold lg:mx-2 mt-3'>Beside Praise House, Oke Abobo Assembly, Kuola, Apata , Ibadan</p>
+                  <p className='font-semibold lg:mx-3 mt-3'>TEL: 08038096564</p>
+                </div>
+          </div>
+
+         </div>
+
+         <p className='font-semibold lg:text-3xl text-center text-orange-700'>OSUN STATE ASSEMBLIES</p>
+            
+            <hr />
+
+         <div className='grid lg:grid-cols-5'>
+         <div className='w-64 h-64 bg-transparent border-2 rounded-2xl my-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90'>
+                <div className='w-full h-24 bg-orange-600 flex justify-center items-center font-semibold text-white'>YATLEC OSOGBO </div>
+                <div>
+                  <p className='font-semibold lg:mx-2 mt-3'>Beside Praise House, Oke Abobo Assembly, Kuola, Apata , Ibadan</p>
+                  <p className='font-semibold lg:mx-3 mt-3'>TEL: 08038096564</p>
+                </div>
+          </div>
+
+       
+
+         </div>
+
+         
+         <p className='font-semibold lg:text-3xl text-center text-orange-700'>OGUN STATE ASSEMBLIES</p>
+            
+            <hr />
+
+         <div className='grid lg:grid-cols-5'>
+         <div className='w-64 h-64 bg-transparent border-2 rounded-2xl my-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90'>
+                <div className='w-full h-24 bg-orange-600 flex justify-center items-center font-semibold text-white'>YATLEC ABEOKUTA </div>
                 <div>
                   <p className='font-semibold lg:mx-2 mt-3'>Beside Praise House, Oke Abobo Assembly, Kuola, Apata , Ibadan</p>
                   <p className='font-semibold lg:mx-3 mt-3'>TEL: 08038096564</p>
