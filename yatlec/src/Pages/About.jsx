@@ -67,21 +67,21 @@ export default function About() {
                 <hr />
         <div className='max-w-7xl mx-auto grid lg:grid-cols-3 lg:my-10 gap-10'> 
           {/* one program display */}
-          <div className='border-2 text-wrap text-justify' >
+          <div className='border-2 text-wrap text-justify transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110' >
             <img className='w-full' 
              src="../src/resources/asset 22.jpeg" alt="" />
-            <p className='font-semibold lg:text-2xl my-6 mx-2 text-center '>SUNDAYS SERVICE</p>
+            <p className='font-semibold lg:text-2xl my-6 mx-2 text-center  '>SUNDAYS SERVICE</p>
             <p className='mx-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum totam id amet est ullam incidunt inventore saepe tempore. Aliquam assumenda aspernatur ipsum amet accusantium voluptas eaque esse nisi iusto omnis.</p>
           </div>
 
-          <div className='border-2 text-wrap text-justify' >
+          <div className='border-2 text-wrap text-justify transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110' >
             <img className='w-full' 
              src="../src/resources/asset 33.jpeg" alt="" />
             <p className='font-semibold lg:text-2xl my-6 mx-2 text-center '>BIBLE STUDY</p>
             <p className='mx-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum totam id amet est ullam incidunt inventore saepe tempore. Aliquam assumenda aspernatur ipsum amet accusantium voluptas eaque esse nisi iusto omnis.</p>
           </div>
 
-          <div className='border-2 text-wrap text-justify' >
+          <div className='border-2 text-wrap text-justify transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110' >
             <img className='w-full' 
              src="../src/resources/asset 40.jpeg" alt="" />
             <p className='font-semibold lg:text-2xl my-6 mx-2 text-center'>PRAYER MEETING</p>

@@ -20,6 +20,9 @@ export default function Navbar() {
                 <Link to='/our-pastors'>
                 <li className='hover:text-orange-700 hover:border-b-2'>Our Pastors</li>
                 </Link>
+                <Link to='/our-assemblies'>
+                <li className='hover:text-orange-700 hover:border-b-2'>Our Assemblies</li>
+                </Link>
                 <Link to='/gallery'>
                 <li className='hover:text-orange-700 hover:border-b-2'>Gallery</li>
                 </Link>

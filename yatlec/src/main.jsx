@@ -12,6 +12,7 @@ import OurPastors from './Pages/OurPastors.jsx';
 import OurServices from './Pages/OurServices.jsx';
 import TheYouthChurch from './Pages/TheYouthChurch.jsx';
 import Give from './Pages/Give.jsx';
+import OurAssemblies from './Pages/OurAssemblies.jsx';
 
 
 
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/about' element={<About/>}/>
         <Route path='/our-pastors' element={<OurPastors/>} />
         <Route path='/gallery' element={<OurServices/>} />
+        <Route path='/our-assemblies' element={<OurAssemblies/>} />
         <Route path='/the-youths' element={<TheYouthChurch/>} />
         <Route path='/give' element={<Give/>} />
 
