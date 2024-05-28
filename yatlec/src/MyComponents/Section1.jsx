@@ -2,6 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../../variants.js'
 import Churchphotos from './Churchphotos.jsx'
+import { Link } from 'react-router-dom'
 
 export default function Section1() {
   return (
@@ -40,10 +41,10 @@ export default function Section1() {
             {/* for phone responsiveness */}
           <div className='md:hidden mx-3 flex flex-col gap-5'>
               <motion.div
-              variants={fadeIn("right", 0.1)}
-              initial = "hidden"
-              whileInView={"show"}
-              viewport={{once:false, amount: 0.9}}
+               variants={fadeIn("down", 0.1)}
+               initial = "hidden"
+               whileInView={"show"}
+               viewport={{once:false, amount: 0.9}}
             
             className='border-4 p-3 md:h-[200px]   rounded-2xl text-center bg-gray-300 bg-opacity-75 text-black px-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
               <p className='md:text-5xl font-bold m-2 text-lg '>THE WORD</p>
@@ -52,10 +53,10 @@ export default function Section1() {
             </motion.div>
           
             <motion.div
-              variants={fadeIn("left", 0.1)}
-              initial = "hidden"
-              whileInView={"show"}
-              viewport={{once:false, amount: 0.9}}
+             variants={fadeIn("down", 0.2)}
+             initial = "hidden"
+             whileInView={"show"}
+             viewport={{once:false, amount: 0.9}}
 
             className='border-4 p-3 md:h-[200px] rounded-2xl text-center bg-gray-300 bg-opacity-75 text-black px-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
               <p className='md:text-5xl font-bold m-2 text-lg '>PRAYERS</p>
@@ -64,11 +65,11 @@ export default function Section1() {
             </motion.div>
 
             <motion.div 
-             variants={fadeIn("right", 0.1)}
-             initial = "hidden"
-             whileInView={"show"}
-             viewport={{once:false, amount: 0.9}}
-             
+              variants={fadeIn("down", 0.3)}
+              initial = "hidden"
+              whileInView={"show"}
+              viewport={{once:false, amount: 0.9}}
+
              className='border-4 p-3 md:h-[200px] rounded-2xl text-center bg-gray-300 bg-opacity-75 text-black px-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
               <p className='md:text-5xl font-bold m-2 text-lg '>EVANGELISM</p>
               <p className='md:my-10 md:text-lg font-semibold'>We are passionate about Soul Winning</p>
@@ -95,15 +96,15 @@ export default function Section1() {
               viewport={{once:false, amount: 0.9}}
               
               className='flex  items-center justify-between gap-3'>
-              <div className='md:h-[500px] lg:h-[650px] md:w-80 rounded-3xl' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) , rgba(230, 140, 120, 0.3), rgba(255, 165, 0, 0.9)), url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/daddy%20go.jpg?alt=media&token=afa46454-f259-4666-ab12-7280155f8f2b')`,
+              <div className=' h-[200px] w-28 md:h-[500px] lg:h-[650px] md:w-80 rounded-3xl' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) , rgba(230, 140, 120, 0.3), rgba(255, 165, 0, 0.9)), url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/daddy%20go.jpg?alt=media&token=afa46454-f259-4666-ab12-7280155f8f2b')`,
                   backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPositionX: "40%",}}>
                 </div>  
 
-                <div className='md:h-[500px] lg:h-[650px] md:w-80 rounded-3xl' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) , rgba(230, 140, 120, 0.3), rgba(255, 165, 0, 0.9)), url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/g.o2.jpg?alt=media&token=648dd63d-46e7-4ffd-9c72-e1a241efe72f')`,
+                <div className=' h-[200px] w-28 md:h-[500px] lg:h-[650px] md:w-80 rounded-3xl' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) , rgba(230, 140, 120, 0.3), rgba(255, 165, 0, 0.9)), url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/g.o2.jpg?alt=media&token=648dd63d-46e7-4ffd-9c72-e1a241efe72f')`,
                   backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPositionX: "50%",}}>
                 </div>  
 
-                <div className='md:h-[500px] lg:h-[650px] md:w-80 rounded-3xl' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) , rgba(230, 140, 120, 0.3), rgba(255, 165, 0, 0.9)), url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/g.o3.jpg?alt=media&token=03751b28-dbd1-41dd-8164-b90c6e8fabe1')`,
+                <div className='h-[200px] w-28 md:h-[500px] lg:h-[650px] md:w-80 rounded-3xl' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) , rgba(230, 140, 120, 0.3), rgba(255, 165, 0, 0.9)), url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/g.o3.jpg?alt=media&token=03751b28-dbd1-41dd-8164-b90c6e8fabe1')`,
                   backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPositionX: "50%",}}>
                 </div>  
 
@@ -119,10 +120,10 @@ export default function Section1() {
               viewport={{once:false, amount: 0.9}}
               
               className='text-center md:me-3 md:w-[300px] lg:w-[700px]'>
-                <p className='md:text-3xl font-semibold mt-10 md:mt-0 text-3xl'> BORN OUT OF BURDEN FOR SOULS</p>
-                <p className='text-justify lg:my-7 font-semibold text-sm md:text-base'>Ye Are the Light Evangelical Church was born out of a profound burden for the souls of men. Our father felt a deep, compelling call to reach out to those who are lost, hurting, and in need of the saving grace of Jesus Christ. This burden drives our mission and fuels our passion for spreading the gospel, ensuring that every individual has the opportunity to hear and respond to the good news.</p>
-                <p className='text-justify lg:my-7 font-semibold text-sm md:text-base hidden md:inline-block'>Our commitment to evangelism is rooted in the belief that every soul matters to God. We are dedicated to sharing the message of salvation through various outreach programs, community events, and personal witness. We believe in meeting people where they are, offering hope, love, and the life-changing power of the gospel. Through our efforts, we aim to bring light to dark places and offer a path to redemption for all who seek it.</p>
-                <p className='text-justify lg:my-7 font-semibold text-sm md:text-base hidden lg:inline-block'>At Ye Are the Light Evangelical Church, we are not just focused on numbers but on genuine transformation. We strive to disciple those who come to faith, helping them grow in their relationship with Christ and equipping them to share their faith with others. Our church is a community where the burden for souls translates into action, making a tangible difference in the lives of individuals and the broader community. Together, we are committed to fulfilling the Great Commission and seeing lives changed by the power of God's love</p>
+                <p className='lg:text-5xl font-semibold mt-10 md:mt-0 text-3xl'> BORN OUT OF BURDEN FOR SOULS</p>
+                <p className=' text-justify lg:my-7 font-semibold text-sm lg:text-xl md:text-base'>Ye Are the Light Evangelical Church was born out of a profound burden for the souls of men. Our father felt a deep, compelling call to reach out to those who are lost, hurting, and in need of the saving grace of Jesus Christ. This burden drives our mission and fuels our passion for spreading the gospel, ensuring that every individual has the opportunity to hear and respond to the good news.</p>
+                <p className='text-justify lg:my-7 font-semibold text-sm lg:text-xl md:text-base hidden md:inline-block'>Our commitment to evangelism is rooted in the belief that every soul matters to God. We are dedicated to sharing the message of salvation through various outreach programs, community events, and personal witness. We believe in meeting people where they are, offering hope, love, and the life-changing power of the gospel. Through our efforts, we aim to bring light to dark places and offer a path to redemption for all who seek it.</p>
+                {/* <p className='text-justify lg:my-7 font-semibold text-sm md:text-base hidden lg:inline-block'>At Ye Are the Light Evangelical Church, we are not just focused on numbers but on genuine transformation. We strive to disciple those who come to faith, helping them grow in their relationship with Christ and equipping them to share their faith with others. Our church is a community where the burden for souls translates into action, making a tangible difference in the lives of individuals and the broader community. Together, we are committed to fulfilling the Great Commission and seeing lives changed by the power of God's love</p> */}
               </motion.div>
             </div>
         </div>
@@ -130,8 +131,8 @@ export default function Section1() {
 
       {/* Another Parallax Section */}
       <div className="parallax bg-fixed bg-center bg-cover h-screen" style={{ backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/landing.jpg?alt=media&token=d595e1d2-ce69-4f8d-a3e3-3e967d8c76ca')" }}>
-        <div className="flex items-center justify-center h-full bg-black bg-opacity-70">
-          <h2 className="text-white md:text-2xl lg:text-3xl font-semibold max-w-3xl text-justify mx-4 md:mx-10">Ye Are the Light Evangelical Church was founded to reach lost souls with the transformative message of Christ, driven by a deep burden for evangelism and genuine life change.</h2>
+        <div className="flex items-center justify-center h-full bg-black bg-opacity-70 ">
+          <h2 className="text-white md:text-2xl lg:text-3xl font-semibold max-w-3xl text-justify mx-10 md:mx-10">Ye Are the Light Evangelical Church was founded to reach lost souls with the transformative message of Christ, driven by a deep burden for evangelism and genuine life change.</h2>
         </div>
       </div>
 
