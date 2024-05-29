@@ -84,7 +84,7 @@ export default function Section1() {
 
       {/* Regular Section */}
       <div className="h-screen flex items-center justify-center bg-gray-200">
-        <div className=' max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2  md:gap-10'>
+        <div className=' lg:max-w-7xl lg:mx-auto grid grid-cols-1 md:grid-cols-2 mx-10 md:gap-10'>
           
           <div>
 

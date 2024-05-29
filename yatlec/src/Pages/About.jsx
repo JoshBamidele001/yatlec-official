@@ -17,10 +17,10 @@ export default function About() {
        initial = "hidden"
        whileInView={"show"}
        viewport={{once:false, amount: 0.9}}
-        className='max-w-4xl h-[400px] lg:h-[400px] mx-auto flex flex-col items-center justify-center content-center'>
+        className='max-w-4xl h-[400px] md:h-[450px] lg:h-[400px] mx-auto flex flex-col items-center justify-center content-center'>
             <p className='text-xl lg:text-5xl font-semibold text-orange-700 mt-5 md:mt-0 '>VISION STATEMENT</p>
             
-            <p className='my-4 font-semibold lg:text-xl mx-5 md:mx-0 text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptatem deleniti nisi nemo adipisci dolor illum earum eveniet deserunt est? Tempore quam distinctio perferendis provident laudantium id quisquam, consequuntur voluptatibus?</p>
+            <p className='my-4 font-semibold  lg:text-xl mx-5 md:mx-20 lg:mx-0 text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptatem deleniti nisi nemo adipisci dolor illum earum eveniet deserunt est? Tempore quam distinctio perferendis provident laudantium id quisquam, consequuntur voluptatibus?</p>
         
        </motion.div>
          </div>
@@ -34,9 +34,9 @@ export default function About() {
           whileInView={"show"}
           viewport={{once:false, amount: 0.9}}
           
-          className='max-w-4xl h-[300px] lg:h-[400px] mx-auto flex flex-col items-center justify-center content-center'>
+          className='max-w-4xl h-[300px]  md:h-[600px] lg:h-[400px] mx-auto md:mx-10 flex flex-col items-center justify-center content-center'>
                 <p className=' text-xl lg:text-5xl font-semibold text-orange-700 mt-5 md:mt-0 '>MISSION STATEMENT</p>
-                <p className='my-4 lg:text-xl mx-5 md:mx-0 text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptatem deleniti nisi nemo adipisci dolor illum earum eveniet deserunt est? Tempore quam distinctio perferendis provident laudantium id quisquam, consequuntur voluptatibus?</p>
+                <p className='my-4 lg:text-xl mx-5 md:mx-20 lg:mx-0 text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptatem deleniti nisi nemo adipisci dolor illum earum eveniet deserunt est? Tempore quam distinctio perferendis provident laudantium id quisquam, consequuntur voluptatibus?</p>
             
           </motion.div>
          </div>
@@ -47,10 +47,10 @@ export default function About() {
           
          <div className='w-screen bg-orange-300  border-3  shadow  '>
           <motion.div
-          variants={fadeIn("right", 0.1)}
-          initial = "hidden"
-          whileInView={"show"}
-          viewport={{once:false, amount: 0.9}}
+          // variants={fadeIn("right", 0.1)}
+          // initial = "hidden"
+          // whileInView={"show"}
+          // viewport={{once:false, amount: 0.9}}
 
            className='max-w-4xl h-[250px] w-screen lg:h-[400px] mx-auto flex flex-col items-center justify-center content-center'>
                 <p className='lg:text-5xl font-semibold text-orange-700'>MOTTO</p>
@@ -63,29 +63,29 @@ export default function About() {
 
        {/* Our programs and time of events */}
 
-                <p className='text-center p-4 font-semibold lg:text-2xl lg:mt-10'>OUR SERVICES</p>
+                <p className='text-center p-4 font-semibold lg:text-2xl mt-5 lg:mt-10'>OUR SERVICES</p>
                 <hr />
         <div className='max-w-7xl mx-auto grid lg:grid-cols-3 lg:my-10 gap-10 '> 
           {/* one program display */}
-          <div className='border-2 text-wrap text-justify mx-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110' >
+          <div className='border-2 text-wrap text-justify mx-4 md:mx-20 lg:mx-0 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110' >
             <img className='w-full' 
              src="../src/resources/asset 22.jpeg" alt="" />
             <p className='font-semibold lg:text-2xl my-6 mx-2 text-center  '>SUNDAYS SERVICE</p>
             <p className='mx-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum totam id amet est ullam incidunt inventore saepe tempore. Aliquam assumenda aspernatur ipsum amet accusantium voluptas eaque esse nisi iusto omnis.</p>
           </div>
 
-          <div className='border-2 text-wrap text-justify  mx-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110' >
+          <div className='border-2 text-wrap text-justify  mx-4 md:mx-20 lg:mx-0 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110' >
             <img className='w-full' 
              src="../src/resources/asset 33.jpeg" alt="" />
             <p className='font-semibold lg:text-2xl my-6 mx-2 text-center '>BIBLE STUDY</p>
             <p className='mx-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum totam id amet est ullam incidunt inventore saepe tempore. Aliquam assumenda aspernatur ipsum amet accusantium voluptas eaque esse nisi iusto omnis.</p>
           </div>
 
-          <div className='border-2 text-wrap text-justify  mx-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110' >
+          <div className='border-2 text-wrap text-justify  mx-4 md:mx-20 lg:mx-0 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110' >
             <img className='w-full' 
              src="../src/resources/asset 40.jpeg" alt="" />
             <p className='font-semibold lg:text-2xl my-6 mx-2 text-center'>PRAYER MEETING</p>
-            <p className='mx-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum totam id amet est ullam incidunt inventore saepe tempore. Aliquam assumenda aspernatur ipsum amet accusantium voluptas eaque esse nisi iusto omnis.</p>
+            <p className='mx-4 md:text-2xl lg:text-base'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum totam id amet est ullam incidunt inventore saepe tempore. Aliquam assumenda aspernatur ipsum amet accusantium voluptas eaque esse nisi iusto omnis.</p>
           </div>
 
         </div>
