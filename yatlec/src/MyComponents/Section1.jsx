@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 export default function Section1() {
   return (
-    <div className='bg-red-600 w-screen h-auto '>
+    <div className='bg-transparent w-screen h-auto '>
              <div className="relative overflow-hidden">
       {/* Parallax Section */}
       <div className="parallax bg-fixed bg-center bg-cover h-screen" style={{ backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/ya002.jpg?alt=media&token=ae9f2788-aa3d-456f-8709-fd9b5d306d7ehttps://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/IMG_8259.jpg?alt=media&token=95308410-64fc-4137-a6fe-d46e4eb7d921')" }}>
@@ -84,7 +84,7 @@ export default function Section1() {
 
       {/* Regular Section */}
       <div className="h-screen flex items-center justify-center bg-gray-200">
-        <div className=' grid grid-cols-1 md:grid-cols-2 mx-10 md:gap-10'>
+        <div className=' max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2  md:gap-10'>
           
           <div>
 
@@ -119,7 +119,7 @@ export default function Section1() {
               whileInView={"show"}
               viewport={{once:false, amount: 0.9}}
               
-              className='text-center md:me-3 md:w-[300px] lg:w-[700px]'>
+              className='text-center md:me-3 md:w-[300px] lg:w-[700px] '>
                 <p className='lg:text-5xl font-semibold mt-10 md:mt-0 text-3xl'> BORN OUT OF BURDEN FOR SOULS</p>
                 <p className=' text-justify lg:my-7 font-semibold text-sm lg:text-xl md:text-base'>Ye Are the Light Evangelical Church was born out of a profound burden for the souls of men. Our father felt a deep, compelling call to reach out to those who are lost, hurting, and in need of the saving grace of Jesus Christ. This burden drives our mission and fuels our passion for spreading the gospel, ensuring that every individual has the opportunity to hear and respond to the good news.</p>
                 <p className='text-justify lg:my-7 font-semibold text-sm lg:text-xl md:text-base hidden md:inline-block'>Our commitment to evangelism is rooted in the belief that every soul matters to God. We are dedicated to sharing the message of salvation through various outreach programs, community events, and personal witness. We believe in meeting people where they are, offering hope, love, and the life-changing power of the gospel. Through our efforts, we aim to bring light to dark places and offer a path to redemption for all who seek it.</p>

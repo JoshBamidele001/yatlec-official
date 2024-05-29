@@ -9,22 +9,11 @@ import { Link } from 'react-router-dom'
 export default function Header() {
   return (
     <>
-        {/* <div>
-
-          <div>
-
-          </div>
-
-        </div>
-        <section className=' h-[300px] md:h-96 lg:h-[600px]  w-full relative ' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.7)), url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/landing.jpg?alt=media&token=d595e1d2-ce69-4f8d-a3e3-3e967d8c76ca')`,
-       backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPositionY: "60%"}}>
-
-        </section> */}
 
     <div className="relative lg:h-screen h-screen md:h-[1000px] flex flex-col justify-center items-center bg-fixed parallax bg-center bg-gray-100">
       <div className="absolute top-0 left-0 w-full h-screen  bg-cover bg-center " style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) , rgba(230, 140, 120, 0.7), rgba(255, 165, 0, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/IMG_8259.jpg?alt=media&token=95308410-64fc-4137-a6fe-d46e4eb7d921')`,
       
-      backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPositionY: "40%", loading: "lazy"}}>
+      backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPositionX: "40%", loading: "lazy"}}>
         <ShapeDivider />
       </div>
       <motion.div
