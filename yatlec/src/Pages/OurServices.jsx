@@ -28,12 +28,12 @@ const FileList = () => {
   return (
     <div>
       <h1>Files</h1>
-      <ul className='grid lg:grid-cols-3 gap-5'>
+      <ul className='grid lg:grid-cols-3 md:grid-cols-2 md:mx-2 gap-5'>
         {files.map((fileUrl, index) => (
           <li key={index}>
             <a href={fileUrl} target="_blank" rel="noopener noreferrer">
               
-            <img src={fileUrl} key={9} alt="" />
+            <img src={fileUrl} key={9} alt="" className='rounded-2xl ' />
             </a>
           </li>
         ))}

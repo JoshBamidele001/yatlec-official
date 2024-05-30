@@ -17,14 +17,18 @@ export default function Navbar() {
 
   return (
     <>
-        <div className='flex items-center justify-around py-3 h-24 bg-white sticky top-0 z-20  w-full'>
-            <section className='flex items-center gap-2'>
+        <div className='flex items-center justify-around lg:justify-around py-3 h-24 bg-white sticky top-0 z-20 text-nowrap md:mx-2 lg:mx-0   w-full'>
+           <Link to='/'>
+            <section className='flex items-center gap-2 md:me-3 lg:me-0'>
                     <img src={yatleclogo} alt="" className='w-10' />
                     <span className='font-semibold text-2xl text-orange-700'>Yatlec</span>
             </section>
-            <ul className='lg:flex lg:flex-row gap-10 font-semibold text-orange-800 hidden '>
+           </Link>
+
+
+            <ul className='lg:flex lg:flex-row md:gap-3 lg:gap-10 font-semibold text-orange-800 hidden md:flex md:text-sm lg:text-base'>
                 <Link to='/'>
-                <li className='hover:text-orange-700 hover:border-b-2'>Home</li>
+                <li className='hover:text-orange-700 hover:border-b-2 '>Home</li>
                 </Link>
                 <Link to='/about'>
                 <li className='hover:text-orange-700 hover:border-b-2'>Who we are</li>
@@ -45,11 +49,14 @@ export default function Navbar() {
                 <li className='hover:text-orange-700 hover:border-b-2'>Give</li>
                 </Link>
             </ul>
-            <section>
+
+            <Link to='/contact'>
+            <section className='hidden lg:inline-block'>
                 <span className='btn bg-transparent border-2 p-3 font-semibold rounded-3xl text-orange-800'>Contact us</span>
             </section>
+            </Link>
 
-            <div className='block ms-10 text-2xl sm:hidden' onClick={toggleMenu}>
+            <div className='block ms-10 text-2xl md:hidden lg:hidden' onClick={toggleMenu}>
                  <TfiAlignJustify/>
             </div>
 

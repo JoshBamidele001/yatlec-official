@@ -41,7 +41,7 @@ export default function Section1() {
             {/* for phone responsiveness */}
           <div className='md:hidden mx-3 flex flex-col gap-5'>
               <motion.div
-               variants={fadeIn("up", 0.1)}
+               variants={fadeIn("down", 0.1)}
                initial = "hidden"
                whileInView={"show"}
                viewport={{once:false, amount: 0.9}}
@@ -65,7 +65,7 @@ export default function Section1() {
             </motion.div>
 
             <motion.div 
-              variants={fadeIn("right", 0.3)}
+              variants={fadeIn("down", 0.3)}
               initial = "hidden"
               whileInView={"show"}
               viewport={{once:false, amount: 0.9}}

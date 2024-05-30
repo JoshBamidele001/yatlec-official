@@ -13,6 +13,8 @@ import OurServices from './Pages/OurServices.jsx';
 import TheYouthChurch from './Pages/TheYouthChurch.jsx';
 import Give from './Pages/Give.jsx';
 import OurAssemblies from './Pages/OurAssemblies.jsx';
+import Footer from './MyComponents/Footer.jsx';
+import Contact from './Pages/Contact.jsx';
 
 
 
@@ -30,8 +32,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/our-assemblies' element={<OurAssemblies/>} />
         <Route path='/the-youths' element={<TheYouthChurch/>} />
         <Route path='/give' element={<Give/>} />
+        <Route path='/contact' element={<Contact/>} />
+
 
     </Routes>
+    <Footer/>
     </BrowserRouter>
   </React.StrictMode>,
 )
