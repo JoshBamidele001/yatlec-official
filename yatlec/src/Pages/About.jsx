@@ -51,7 +51,7 @@ export default function About() {
           // whileInView={"show"}
           // viewport={{once:false, amount: 0.9}}
 
-           className='max-w-4xl h-[226px] w-screen md:h-[330px] lg:h-[300px] mx-auto flex flex-col items-center justify-center content-center'>
+           className='max-w-4xl h-[226px] w-screen md:h-[330px] lg:h-[300px] mx-auto  flex flex-col items-center justify-center content-center'>
                 <p className='lg:text-5xl font-semibold text-orange-700'>MOTTO</p>
                 <p className='my-4 text-sm lg:text-2xl'>"Evangelism is our major business"</p>
             

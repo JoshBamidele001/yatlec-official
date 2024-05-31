@@ -20,8 +20,8 @@ export default function Navbar() {
         <div className='flex items-center justify-around lg:justify-around py-3 h-24 bg-white sticky top-0 z-20 text-nowrap md:mx-2 lg:mx-0   w-full'>
            <Link to='/'>
             <section className='flex items-center gap-2 md:me-3 lg:me-0'>
-                    <img src={yatleclogo} alt="" className='w-10' />
-                    <span className='font-semibold text-2xl text-orange-700'>Yatlec</span>
+                    <img src={yatleclogo} alt="" className=' w-6 md:w-10' />
+                    <span className=' font-semibold md:text-2xl text-orange-800'>Yatlec</span>
             </section>
            </Link>
 
@@ -56,13 +56,13 @@ export default function Navbar() {
             </section>
             </Link>
 
-            <div className='block ms-10 text-2xl md:hidden lg:hidden' onClick={toggleMenu}>
+            <div className='block ms-10 text-2xl text-orange-800 md:hidden lg:hidden' onClick={toggleMenu}>
                  <TfiAlignJustify/>
             </div>
 
             { isMenuOpen ? (
               
-               <ul className='flex flex-col md:hidden font-semibold justify-between bg-white p-8 leading-8 absolute top-20 w-full '>
+               <ul className='flex flex-col md:hidden text-orange-800 font-semibold justify-between bg-white p-8 leading-8 absolute top-20 w-full '>
                 <Link to='/' onClick={handleMenuClick}>
                 <li className='hover:text-orange-700 border-b-2 hover:border-b-2'>Home</li>
                 </Link>

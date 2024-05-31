@@ -9,8 +9,8 @@ export default function Section1() {
     <div className='bg-transparent w-screen h-auto '>
              <div className="relative overflow-hidden">
       {/* Parallax Section */}
-      <div className="parallax bg-fixed bg-center bg-cover h-screen" style={{ backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/ya002.jpg?alt=media&token=ae9f2788-aa3d-456f-8709-fd9b5d306d7ehttps://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/IMG_8259.jpg?alt=media&token=95308410-64fc-4137-a6fe-d46e4eb7d921')" }}>
-        <div className="flex items-center justify-between md:mt-5 h-full bg-black bg-opacity-50">
+      <div className="parallax bg-fixed bg-center bg-cover h-screen shadow-custom-inset " style={{ backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/ya002.jpg?alt=media&token=ae9f2788-aa3d-456f-8709-fd9b5d306d7ehttps://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/IMG_8259.jpg?alt=media&token=95308410-64fc-4137-a6fe-d46e4eb7d921')" }}>
+        <div className="flex items-center justify-between md:mt-5 h-full bg-orange-800 bg-opacity-50 md:bg-black md:bg-opacity-50">
           {/* <h1 className="text-white text-4xl font-bold">Welcome to My Website</h1> */}
           
       <div className='md:grid md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto gap-10 p-4 hidden'>
@@ -41,10 +41,10 @@ export default function Section1() {
             {/* for phone responsiveness */}
           <div className='md:hidden mx-3 flex flex-col gap-5'>
               <motion.div
-               variants={fadeIn("down", 0.1)}
-               initial = "hidden"
-               whileInView={"show"}
-               viewport={{once:false, amount: 0.9}}
+              //  variants={fadeIn("down", 0.1)}
+              //  initial = "hidden"
+              //  whileInView={"show"}
+              //  viewport={{once:false, amount: 0.9}}
             
             className='border-4 p-3 md:h-[200px]   rounded-2xl text-center bg-gray-300 bg-opacity-75 text-black px-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
               <p className='md:text-5xl font-bold m-2 text-lg '>THE WORD</p>
@@ -53,10 +53,10 @@ export default function Section1() {
             </motion.div>
           
             <motion.div
-             variants={fadeIn("down", 0.2)}
-             initial = "hidden"
-             whileInView={"show"}
-             viewport={{once:false, amount: 0.9}}
+            //  variants={fadeIn("down", 0.2)}
+            //  initial = "hidden"
+            //  whileInView={"show"}
+            //  viewport={{once:false, amount: 0.9}}
 
             className='border-4 p-3 md:h-[200px] rounded-2xl text-center bg-gray-300 bg-opacity-75 text-black px-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
               <p className='md:text-5xl font-bold m-2 text-lg '>PRAYERS</p>
@@ -65,10 +65,10 @@ export default function Section1() {
             </motion.div>
 
             <motion.div 
-              variants={fadeIn("down", 0.3)}
-              initial = "hidden"
-              whileInView={"show"}
-              viewport={{once:false, amount: 0.9}}
+              // variants={fadeIn("down", 0.3)}
+              // initial = "hidden"
+              // whileInView={"show"}
+              // viewport={{once:false, amount: 0.9}}
 
              className='border-4 p-3 md:h-[200px] rounded-2xl text-center bg-gray-300 bg-opacity-75 text-black px-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
               <p className='md:text-5xl font-bold m-2 text-lg '>EVANGELISM</p>
@@ -120,9 +120,9 @@ export default function Section1() {
               viewport={{once:false, amount: 0.9}}
               
               className='text-center md:me-3 md:w-[300px] lg:w-[700px] '>
-                <p className='lg:text-5xl font-semibold mt-10 md:mt-0 text-3xl'> BORN OUT OF BURDEN FOR SOULS</p>
-                <p className=' text-justify lg:my-7 font-semibold text-sm lg:text-xl md:text-base'>Ye Are the Light Evangelical Church was born out of a profound burden for the souls of men. Our father felt a deep, compelling call to reach out to those who are lost, hurting, and in need of the saving grace of Jesus Christ. This burden drives our mission and fuels our passion for spreading the gospel, ensuring that every individual has the opportunity to hear and respond to the good news.</p>
-                <p className='text-justify lg:my-7 font-semibold text-sm lg:text-xl md:text-base hidden md:inline-block'>Our commitment to evangelism is rooted in the belief that every soul matters to God. We are dedicated to sharing the message of salvation through various outreach programs, community events, and personal witness. We believe in meeting people where they are, offering hope, love, and the life-changing power of the gospel. Through our efforts, we aim to bring light to dark places and offer a path to redemption for all who seek it.</p>
+                <p className=' lg:text-5xl font-semibold mt-10 md:mt-0 text-3xl'> BORN OUT OF BURDEN FOR SOULS</p>
+                <p className=' text-justify lg:my-7 md:font-semibold text-sm lg:text-xl md:text-base'>Ye Are the Light Evangelical Church was born out of a profound burden for the souls of men. Our father felt a deep, compelling call to reach out to those who are lost, hurting, and in need of the saving grace of Jesus Christ. This burden drives our mission and fuels our passion for spreading the gospel, ensuring that every individual has the opportunity to hear and respond to the good news.</p>
+                <p className='text-justify lg:my-7 md:font-semibold text-sm lg:text-xl md:text-base hidden md:inline-block'>Our commitment to evangelism is rooted in the belief that every soul matters to God. We are dedicated to sharing the message of salvation through various outreach programs, community events, and personal witness. We believe in meeting people where they are, offering hope, love, and the life-changing power of the gospel. Through our efforts, we aim to bring light to dark places and offer a path to redemption for all who seek it.</p>
                 {/* <p className='text-justify lg:my-7 font-semibold text-sm md:text-base hidden lg:inline-block'>At Ye Are the Light Evangelical Church, we are not just focused on numbers but on genuine transformation. We strive to disciple those who come to faith, helping them grow in their relationship with Christ and equipping them to share their faith with others. Our church is a community where the burden for souls translates into action, making a tangible difference in the lives of individuals and the broader community. Together, we are committed to fulfilling the Great Commission and seeing lives changed by the power of God's love</p> */}
               </motion.div>
             </div>
