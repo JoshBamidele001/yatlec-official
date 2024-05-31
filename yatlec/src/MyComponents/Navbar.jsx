@@ -1,7 +1,9 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import { TfiAlignJustify } from "react-icons/tfi";
+import { TiMessages } from "react-icons/ti";
 import yatleclogo from '../resources/yatlec.jpeg'
+import '@fontsource/satisfy';
 
 export default function Navbar() {
   const [isMenuOpen, setisMenuOpen] = useState(false)
@@ -21,7 +23,7 @@ export default function Navbar() {
            <Link to='/'>
             <section className='flex items-center gap-2 md:me-3 lg:me-0'>
                     <img src={yatleclogo} alt="" className=' w-6 md:w-10' />
-                    <span className=' font-semibold md:text-2xl text-orange-800'>Yatlec</span>
+                    <span className='font-satisfy md:font-normal font-semibold md:text-2xl text-orange-800'>Yatlec</span>
             </section>
            </Link>
 
@@ -56,8 +58,20 @@ export default function Navbar() {
             </section>
             </Link>
 
+            <div className='flex items-center gap-'>
+
             <div className='block ms-10 text-2xl text-orange-800 md:hidden lg:hidden' onClick={toggleMenu}>
                  <TfiAlignJustify/>
+            </div>
+
+
+            <Link to='/contact'>
+            
+            <div className='block ms-10  text-2xl text-orange-800 md:hidden lg:hidden'>
+            <TiMessages />
+            </div>
+            </Link>
+
             </div>
 
             { isMenuOpen ? (

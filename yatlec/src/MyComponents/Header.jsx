@@ -7,12 +7,13 @@ import { GoStarFill } from "react-icons/go";
 
 
 
+
 export default function Header() {
   return (
     <>
 
-    <div className="relative h-[450px]  lg:h-screen  md:h-[700px]  flex flex-col justify-center items-center bg-fixed parallax bg-center bg-gray-100">
-      <div className="absolute top-0 left-0 w-full h-[450px] md:h-[700px] lg:h-screen border-b-4 md:border-b  bg-cover bg-center hover:shadow-2xl " style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) , rgba(230, 140, 120, 0.7), rgba(255, 165, 0, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/IMG_8259.jpg?alt=media&token=95308410-64fc-4137-a6fe-d46e4eb7d921')`,
+    <div className="relative h-[580px]  lg:h-screen  md:h-[700px] shadow-2xl  flex flex-col justify-center items-center bg-fixed parallax bg-center bg-gray-100">
+      <div className="absolute top-0 left-0 w-full h-[580px] md:h-[700px] shadow-2xl lg:h-screen border-b-4 md:border-b  bg-cover bg-center hover:shadow-2xl " style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) , rgba(230, 140, 120, 0.7), rgba(255, 165, 0, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/yatlec-official.appspot.com/o/IMG_8259.jpg?alt=media&token=95308410-64fc-4137-a6fe-d46e4eb7d921')`,
       
       backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPositionX: "40%", loading: "lazy"}}>
         <ShapeDivider />
